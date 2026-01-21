@@ -312,7 +312,7 @@ void Explorer_RenderFile(unsigned int* Target,int Target_Width,int Target_Height
         }
         
         Tex_SyncString(&e->t,&s->name);
-        Tex_HighLightString(&e->t,&s->name,&e->Syntax);
+        HighLight_Tex_String(&e->Syntax,&s->name,&e->t);
         TCStr_RenderSizeAlxFont(Target,Target_Width,Target_Height,&e->font,Vector_Get(&e->t,0),s->name.Memory,s->name.size,*x,*y);
 
         //CStr_RenderSizeFont(Target,Target_Width,Target_Height,&e->font,(unsigned char*)s->str.Memory,s->str.size,*x,*y,WHITE);

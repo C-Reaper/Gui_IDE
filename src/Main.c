@@ -3,7 +3,7 @@
 #include <sys/stat.h>
 #include <unistd.h>
 
-#include "/home/codeleaded/System/Static/Library/WindowEngine1.0.h"
+#include "/home/codeleaded/System/Static/Library/WindowEngine.h"
 #include "/home/codeleaded/System/Static/Library/ObjectNotation.h"
 
 #define SYNTAX_PATH     "/home/codeleaded/System/SyntaxFiles/Path_Syntax.alxon"
@@ -459,7 +459,7 @@ int main(int argc,char** argv){
 #include <sys/stat.h>
 #include <unistd.h>
 
-#include "C:/Wichtig/System/Static/Library/WindowEngine1.0.h"
+#include "C:/Wichtig/System/Static/Library/WindowEngine.h"
 #include "C:/Wichtig/System/Static/Library/ObjectNotation.h"
 
 #define SYNTAX_PATH     "C:/Wichtig/System/SyntaxFiles/Path_Syntax.alxon"
